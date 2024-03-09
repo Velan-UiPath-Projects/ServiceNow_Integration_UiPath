@@ -23,7 +23,11 @@ UiPath ServiceNow Integration
 1.	Objective: Automate the process of handling loan requests raised in ServiceNow, including applying for a loan on the loan website, updating input Excel, closing tickets, and notifying administrators in email.
 2.	Scope: The automation will cover the entire process from handling loan requests in ServiceNow to updating input data and closing tickets.
 3. Process Flow
+
+   
 Step 1: Incident Creation in ServiceNow. Admin raise loan requests in ServiceNow and attached the inputs in Attachment.
+
+
 Step 2: Bot Execution: The bot monitors ServiceNow for new loan incidents. This has been achieved using Service Now Connection Trigger in Integration Service.
  
 
